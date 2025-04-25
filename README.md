@@ -44,3 +44,16 @@ export BRASILAPI_URL=https://brasilapi.com.br
 
 # Rode a aplicação
 ./mvnw spring-boot:run
+
+## Melhorias Futuras
+
+- Implementar consulta real de CPF (integração com fonte oficial)
+- Autenticação e autorização de usuários
+- Deploy automatizado (CI/CD)
+- Dockerização completa para ambientes produtivos
+- Cobertura de testes > 80% (SonarQube ou Jacoco)
+- Monitoramento e métricas de uso
+- Versão para ambiente cloud (AWS/Azure)
+
+Contribuições são bem-vindas! Sugira novas features via [issues](https://github.com/seu-usuario/seu-repo/issues).
+
