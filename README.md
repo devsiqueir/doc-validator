@@ -55,5 +55,6 @@ export BRASILAPI_URL=https://brasilapi.com.br
 - Monitoramento e métricas de uso
 - Versão para ambiente cloud (AWS/Azure)
 
-Contribuições são bem-vindas! Sugira novas features via [issues](https://github.com/seu-usuario/seu-repo/issues).
+Contribuições são bem-vindas! Sugira novas features via [issues](https://github.com/rsiqueira011/doc-validator/issues)
+
 
