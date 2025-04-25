@@ -15,13 +15,14 @@ public class Usuario {
     private String nome;
     private String email;
 
-    // Construtor padrão exigido pelo JPA
+    private String senha;
+
     public Usuario() {}
 
-    // Construtor para facilitar criação de objetos
-    public Usuario(String nome, String email) {
+    public Usuario(String nome, String email, String senha) {
         this.nome = nome;
         this.email = email;
+        this.senha = senha;
     }
 
     // Getters e Setters
@@ -33,4 +34,7 @@ public class Usuario {
 
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
+
+    public String getSenha() { return senha; }
+    public void setSenha(String senha) { this.senha = senha; }
 }
