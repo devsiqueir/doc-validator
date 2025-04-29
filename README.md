@@ -23,6 +23,16 @@
 
 ---
 
+## 🔒 Autenticação JWT
+
+- Para acessar os endpoints protegidos, você deve:
+  1. Registrar um usuário via `/api/v1/auth/register`
+  2. Fazer login via `/api/v1/auth/login`
+  3. Usar o token JWT retornado no header Authorization:
+  
+```http
+Authorization: Bearer {seu_token}
+
 ## 🛠️ Stack
 
 - **Java 17**
