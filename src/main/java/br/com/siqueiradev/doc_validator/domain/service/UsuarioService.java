@@ -16,6 +16,10 @@ public class UsuarioService {
     private PasswordEncoder passwordEncoder;
 
     public Usuario registrar(String nome, String email, String senha) {
+        if (usuarioRepository.findByEmail(email).isPresent()) {
+            throw new IllegalArgumentException("E-mail já registrado.");
+        }
+
         String senhaHash = passwordEncoder.encode(senha);
         Usuario user = new Usuario(nome, email, senhaHash);
         return usuarioRepository.save(user);

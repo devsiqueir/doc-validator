@@ -1,11 +1,11 @@
 package br.com.siqueiradev.doc_validator.domain.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Table(name = "usuario", uniqueConstraints = {
+        @UniqueConstraint(columnNames = "email")
+})
 public class Usuario {
 
     @Id
