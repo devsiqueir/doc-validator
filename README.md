@@ -1,3 +1,5 @@
+![JWT Auth](https://img.shields.io/badge/Auth-JWT-green?style=flat-square)
+
 # Doc Validator API
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/rsiqueira011/doc-validator)
